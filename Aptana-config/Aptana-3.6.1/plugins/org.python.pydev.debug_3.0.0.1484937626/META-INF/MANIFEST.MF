@@ -1,0 +1,31 @@
+Manifest-Version: 1.0
+Bundle-SymbolicName: org.python.pydev.debug; singleton:=true
+Require-Bundle: org.junit;bundle-version="4.0.0";resolution:=optional,
+ org.eclipse.ui,org.eclipse.ui.ide,org.eclipse.core.runtime,org.eclips
+ e.core.resources,org.eclipse.jface.text,org.eclipse.ui.editors,org.ec
+ lipse.ui.views,org.eclipse.debug.core,org.eclipse.debug.ui,org.eclips
+ e.ui.workbench.texteditor,org.eclipse.core.variables,org.eclipse.ui.c
+ onsole,org.python.pydev.core,org.python.pydev.ast,org.python.pydev.pa
+ rser,org.python.pydev;bundle-version="2.7.6",org.eclipse.core.express
+ ions,org.python.pydev.jython,org.python.pydev.shared_interactive_cons
+ ole,org.python.pydev.shared_ui
+Bundle-ManifestVersion: 2
+Bundle-ActivationPolicy: lazy
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Bundle-Vendor: Aptana
+Import-Package: org.eclipse.core.filesystem
+Export-Package: org.python.pydev.debug.codecoverage,org.python.pydev.d
+ ebug.core,org.python.pydev.debug.model,org.python.pydev.debug.model.r
+ emote,org.python.pydev.debug.newconsole,org.python.pydev.debug.newcon
+ sole.env,org.python.pydev.debug.newconsole.prefs,org.python.pydev.deb
+ ug.pyunit,org.python.pydev.debug.ui,org.python.pydev.debug.ui.actions
+ ,org.python.pydev.debug.ui.blocks,org.python.pydev.debug.ui.launching
+ ,org.python.pydev.debug.ui.propertypages
+Bundle-Name: Pydev debug
+Bundle-Version: 3.0.0.1484937626
+Bundle-ClassPath: pydev-debug.jar
+Bundle-Localization: plugin
+Bundle-Activator: org.python.pydev.debug.core.PydevDebugPlugin
+Eclipse-BundleShape: dir
+
+

@@ -1,0 +1,30 @@
+Manifest-Version: 1.0
+Bundle-SymbolicName: org.python.pydev.shared_ui;singleton:=true
+Require-Bundle: org.python.pydev.shared_core,org.eclipse.ui,org.eclips
+ e.core.runtime,org.eclipse.ui.workbench.texteditor,org.eclipse.jface.
+ text,org.eclipse.ui.editors,org.eclipse.core.resources,org.eclipse.ui
+ .ide,org.eclipse.ui.workbench,org.eclipse.ui.views,org.eclipse.ui.con
+ sole,org.eclipse.e4.ui.services;resolution:=optional,org.eclipse.e4.u
+ i.css.swt.theme;resolution:=optional,org.eclipse.core.filesystem
+Bundle-ManifestVersion: 2
+Bundle-ActivationPolicy: lazy
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Bundle-Vendor: Brainwy Software Ltda
+Export-Package: org.python.pydev.overview_ruler,org.python.pydev.share
+ d_ui,org.python.pydev.shared_ui.actions,org.python.pydev.shared_ui.bi
+ ndings,org.python.pydev.shared_ui.bundle,org.python.pydev.shared_ui.c
+ ontent_assist,org.python.pydev.shared_ui.dialogs,org.python.pydev.sha
+ red_ui.editor,org.python.pydev.shared_ui.field_editors,org.python.pyd
+ ev.shared_ui.outline,org.python.pydev.shared_ui.proposals,org.python.
+ pydev.shared_ui.quick_outline,org.python.pydev.shared_ui.templates,or
+ g.python.pydev.shared_ui.tooltips,org.python.pydev.shared_ui.tooltips
+ .presenter,org.python.pydev.shared_ui.tree,org.python.pydev.shared_ui
+ .utils
+Bundle-Name: Shared Ui Plug-in
+Bundle-Version: 3.0.0.1389225860
+Bundle-ClassPath: shared_ui.jar
+Bundle-Localization: plugin
+Bundle-Activator: org.python.pydev.shared_ui.SharedUiPlugin
+Eclipse-BundleShape: dir
+
+

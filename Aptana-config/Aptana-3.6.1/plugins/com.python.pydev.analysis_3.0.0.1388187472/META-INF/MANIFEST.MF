@@ -1,0 +1,29 @@
+Manifest-Version: 1.0
+Bundle-SymbolicName: com.python.pydev.analysis; singleton:=true
+Require-Bundle: org.eclipse.ui,org.eclipse.core.runtime,org.eclipse.jf
+ ace.text,org.python.pydev;bundle-version="2.7.6",com.python.pydev,org
+ .junit;bundle-version="4.0";resolution:=optional,org.python.pydev.cor
+ e,org.python.pydev.ast,org.python.pydev.parser,org.eclipse.core.resou
+ rces,org.eclipse.ui.editors,org.eclipse.ui.workbench.texteditor,org.e
+ clipse.search,org.eclipse.ui.ide,org.python.pydev.jython,org.python.p
+ ydev.debug,org.python.pydev.shared_ui,org.python.pydev.shared_core
+Bundle-ManifestVersion: 2
+Bundle-ActivationPolicy: lazy
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Bundle-Vendor: Aptana
+Export-Package: com.python.pydev.analysis,com.python.pydev.analysis.ac
+ tions,com.python.pydev.analysis.additionalinfo,com.python.pydev.analy
+ sis.additionalinfo.builders,com.python.pydev.analysis.additionalinfo.
+ dependencies,com.python.pydev.analysis.builder,com.python.pydev.analy
+ sis.ctrl_1,com.python.pydev.analysis.messages,com.python.pydev.analys
+ is.organizeimports,com.python.pydev.analysis.scopeanalysis,com.python
+ .pydev.analysis.tabnanny,com.python.pydev.analysis.ui,com.python.pyde
+ v.analysis.visitors
+Bundle-Name: Analysis Plug-in
+Bundle-Version: 3.0.0.1388187472
+Bundle-Localization: plugin
+Bundle-ClassPath: analysis.jar
+Bundle-Activator: com.python.pydev.analysis.AnalysisPlugin
+Eclipse-BundleShape: dir
+
+

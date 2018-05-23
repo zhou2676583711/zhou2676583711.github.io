@@ -1,0 +1,27 @@
+Manifest-Version: 1.0
+Bundle-SymbolicName: org.python.pydev.shared_core;singleton:=true
+Require-Bundle: org.eclipse.core.runtime,org.eclipse.jface.text,org.ju
+ nit;bundle-version="4.0";resolution:=optional,org.eclipse.jface,org.e
+ clipse.core.resources,com.aptana.core
+Bundle-ManifestVersion: 2
+Bundle-ActivationPolicy: lazy
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Bundle-Vendor: Appcelerator
+Export-Package: org.python.pydev.shared_core,org.python.pydev.shared_c
+ ore.actions,org.python.pydev.shared_core.auto_edit,org.python.pydev.s
+ hared_core.cache,org.python.pydev.shared_core.callbacks,org.python.py
+ dev.shared_core.editor,org.python.pydev.shared_core.io,org.python.pyd
+ ev.shared_core.log,org.python.pydev.shared_core.model,org.python.pyde
+ v.shared_core.net,org.python.pydev.shared_core.parsing,org.python.pyd
+ ev.shared_core.partitioner,org.python.pydev.shared_core.path_watch,or
+ g.python.pydev.shared_core.process,org.python.pydev.shared_core.strin
+ g,org.python.pydev.shared_core.structure,org.python.pydev.shared_core
+ .testutils,org.python.pydev.shared_core.utils
+Bundle-Name: Shared Core Plug-in
+Bundle-Version: 3.0.0.1389225860
+Bundle-ClassPath: shared_core.jar
+Bundle-Localization: plugin
+Bundle-Activator: org.python.pydev.shared_core.SharedCorePlugin
+Eclipse-BundleShape: dir
+
+

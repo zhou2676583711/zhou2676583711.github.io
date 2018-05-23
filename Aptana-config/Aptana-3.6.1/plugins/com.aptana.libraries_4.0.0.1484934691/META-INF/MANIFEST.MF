@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-SymbolicName: com.aptana.libraries
+Export-Package: at.jta,ch.randelshofer.quaqua.util;x-friends:="com.apt
+ ana.core",com.aptana.plist,com.eaio.uuid
+Bundle-Name: %pluginName
+Bundle-Version: 4.0.0.1484934691
+Bundle-ClassPath: .,uuid.jar,WinRegistry-4.4.jar
+Bundle-ManifestVersion: 2
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Bundle-Vendor: %providerName
+
+

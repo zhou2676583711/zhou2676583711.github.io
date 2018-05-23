@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="com.aptana.ide.feature.libraries.subscription"
+      label="%featureName"
+      version="2.0.3.1486404781-3-32585A12454"
+      provider-name="%providerName">
+
+   <description>
+      %description
+   </description>
+
+   <copyright url="%copyrightURL">
+      %copyright
+   </copyright>
+
+   <plugin
+         id="com.aptana.ide.libraries.subscription"
+         download-size="0"
+         install-size="0"
+         version="2.0.4.1474901343"/>
+
+</feature>

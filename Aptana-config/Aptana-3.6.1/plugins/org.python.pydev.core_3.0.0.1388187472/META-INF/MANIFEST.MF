@@ -1,0 +1,25 @@
+Manifest-Version: 1.0
+Bundle-SymbolicName: org.python.pydev.core; singleton:=true
+Require-Bundle: org.junit;bundle-version="4.0.0";resolution:=optional,
+ org.eclipse.ui,org.eclipse.core.runtime,org.eclipse.jface.text,org.ec
+ lipse.core.resources,org.eclipse.ui.workbench.texteditor,org.eclipse.
+ core.filebuffers,org.eclipse.ui.console,org.eclipse.core.variables,or
+ g.python.pydev.shared_core;visibility:=reexport,org.python.pydev.shar
+ ed_ui
+Bundle-ManifestVersion: 2
+Bundle-ActivationPolicy: lazy
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Bundle-Vendor: Aptana
+Export-Package: org.python.pydev.core,org.python.pydev.core.cache,org.
+ python.pydev.core.concurrency,org.python.pydev.core.docutils,org.pyth
+ on.pydev.core.log,org.python.pydev.core.parser,org.python.pydev.core.
+ performanceeval,org.python.pydev.core.resource_stubs,org.python.pydev
+ .core.structure
+Bundle-Name: Core Plug-in
+Bundle-Version: 3.0.0.1388187472
+Bundle-ClassPath: core.jar
+Bundle-Localization: plugin
+Bundle-Activator: org.python.pydev.core.CorePlugin
+Eclipse-BundleShape: dir
+
+

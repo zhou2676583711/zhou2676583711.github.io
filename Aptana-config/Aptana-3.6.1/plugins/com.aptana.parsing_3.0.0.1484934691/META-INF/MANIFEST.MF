@@ -1,0 +1,18 @@
+Manifest-Version: 1.0
+Bundle-SymbolicName: com.aptana.parsing;singleton:=true
+Require-Bundle: beaver;visibility:=reexport,json.simple,com.aptana.cor
+ e,com.aptana.core.epl
+Bundle-ManifestVersion: 2
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Bundle-ActivationPolicy: lazy
+Bundle-Vendor: %providerName
+Eclipse-ExtensibleAPI: true
+Export-Package: com.aptana.json,com.aptana.parsing,com.aptana.parsing.
+ ast,com.aptana.parsing.lexer,com.aptana.parsing.util,com.aptana.parsi
+ ng.xpath,com.aptana.sax,org.jaxen
+Bundle-Name: %pluginName
+Bundle-Version: 3.0.0.1484934691
+Bundle-ClassPath: libs/jaxen-1.1.2.jar,.
+Bundle-Activator: com.aptana.parsing.ParsingPlugin
+
+

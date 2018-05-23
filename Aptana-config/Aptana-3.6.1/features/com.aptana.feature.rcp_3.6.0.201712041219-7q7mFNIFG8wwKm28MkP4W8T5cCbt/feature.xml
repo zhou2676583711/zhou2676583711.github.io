@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="com.aptana.feature.rcp"
+      label="%featureName"
+      version="3.6.0.201712041219-7q7mFNIFG8wwKm28MkP4W8T5cCbt"
+      provider-name="%providerName"
+      plugin="com.aptana.branding">
+
+   <description>
+      %description
+   </description>
+
+   <copyright url="%copyrightURL">
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <url>
+      <update label="%updateSiteName" url="http://download.aptana.com/studio3-rcp/plugin/update/"/>
+   </url>
+
+   <includes
+         id="org.eclipse.help"
+         version="2.0.103.v20150204-1700"
+         search-location="both"/>
+
+   <includes
+         id="org.eclipse.equinox.p2.user.ui"
+         version="2.2.0.v20150129-0838"
+         search-location="both"/>
+
+   <includes
+         id="com.aptana.feature.studio"
+         version="3.6.0.1400264640-7h7B17k92ytZkM4bBasTAtRCcd6E"
+         search-location="both"/>
+
+   <includes
+         id="org.eclipse.platform"
+         version="4.4.2.v20150204-1700"/>
+
+   <requires>
+      <import plugin="org.eclipse.ui"/>
+      <import plugin="org.eclipse.core.runtime"/>
+      <import plugin="org.eclipse.core.resources"/>
+      <import plugin="org.eclipse.ui.ide"/>
+      <import plugin="org.eclipse.ui.browser"/>
+      <import plugin="org.eclipse.equinox.p2.ui.sdk.scheduler"/>
+      <import plugin="com.ibm.icu"/>
+      <import plugin="org.eclipse.core.net"/>
+      <import plugin="com.aptana.commandline.launcher"/>
+      <import plugin="org.eclipse.osgi"/>
+      <import plugin="org.apache.lucene.core"/>
+      <import plugin="org.apache.lucene.analysis"/>
+      <import plugin="org.eclipse.help"/>
+      <import plugin="org.eclipse.core.expressions"/>
+      <import plugin="org.eclipse.equinox.http.jetty"/>
+      <import plugin="org.eclipse.equinox.common"/>
+      <import plugin="org.eclipse.equinox.registry"/>
+      <import plugin="org.eclipse.core.jobs"/>
+      <import plugin="org.eclipse.osgi.services"/>
+      <import plugin="org.apache.commons.logging"/>
+      <import plugin="org.eclipse.ecf.provider.filetransfer"/>
+   </requires>
+
+   <plugin
+         id="com.aptana.rcp"
+         download-size="0"
+         install-size="0"
+         version="3.6.0.201712041219"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.equinox.simpleconfigurator"
+         download-size="0"
+         install-size="0"
+         version="1.1.0.v20131217-1203"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.help.base"
+         download-size="0"
+         install-size="0"
+         version="4.0.201.v20150204-1700"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.lucene.analysis"
+         download-size="0"
+         install-size="0"
+         version="3.5.0.v20120725-1805"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.lucene.core"
+         download-size="0"
+         install-size="0"
+         version="3.5.0.v20120725-1805"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.ecf"
+         download-size="0"
+         install-size="0"
+         version="3.4.0.v20141221-2352"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.ecf.filetransfer"
+         download-size="0"
+         install-size="0"
+         version="5.0.0.v20141221-2352"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.ecf.identity"
+         download-size="0"
+         install-size="0"
+         version="3.4.0.v20141221-2352"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.commons.codec"
+         download-size="0"
+         install-size="0"
+         version="1.6.0.v201305230611"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.httpcomponents.httpclient"
+         download-size="0"
+         install-size="0"
+         version="4.3.6.v201411290715"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.ecf.provider.filetransfer"
+         download-size="0"
+         install-size="0"
+         version="3.2.200.v20141221-2352"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.ecf.provider.filetransfer.httpclient4"
+         download-size="0"
+         install-size="0"
+         version="1.0.1043.v20141221-2352"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.ecf.provider.filetransfer.httpclient4.ssl"
+         download-size="0"
+         install-size="0"
+         version="1.0.0.v20141221-2352"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.ecf.provider.filetransfer.ssl"
+         download-size="0"
+         install-size="0"
+         version="1.0.0.v20141221-2352"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.ecf.ssl"
+         download-size="0"
+         install-size="0"
+         version="1.1.0.v20141221-2352"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.equinox.concurrent"
+         download-size="0"
+         install-size="0"
+         version="1.1.0.v20130327-1442"
+         unpack="false"/>
+
+   <plugin
+         id="com.aptana.rcp.studio"
+         os="aix,hpux,linux,macosx,qnx,solaris"
+         download-size="0"
+         install-size="0"
+         version="3.0.0.1397151320"
+         fragment="true"
+         unpack="false"/>
+
+</feature>

@@ -1,0 +1,9 @@
+解压 studio3.linux.gtk.x86_64_3.6.1.zip
+
+ 解压之后的文件夹  Aptana_Studio_3
+
+      Aptana_Studio_3/ features (1)
+                       plugins  (2)
+
+
+    复制到    eclipse/dropins 目录下面（eclipse的安装目录）

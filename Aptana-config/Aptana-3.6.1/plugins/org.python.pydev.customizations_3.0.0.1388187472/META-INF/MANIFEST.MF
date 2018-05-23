@@ -1,0 +1,24 @@
+Manifest-Version: 1.0
+Bundle-SymbolicName: org.python.pydev.customizations; singleton:=true
+Require-Bundle: org.eclipse.ui,org.eclipse.core.runtime,org.python.pyd
+ ev,org.python.pydev.debug,org.eclipse.core.resources,org.python.pydev
+ .core,org.junit;bundle-version="4.0";resolution:=optional,org.eclipse
+ .debug.core,org.eclipse.debug.ui,org.eclipse.core.expressions,org.pyt
+ hon.pydev.shared_ui
+Bundle-ManifestVersion: 2
+Bundle-ActivationPolicy: lazy
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Bundle-Vendor: Aptana
+Export-Package: org.python.pydev.customizations,org.python.pydev.custo
+ mizations.app_engine.actions,org.python.pydev.customizations.app_engi
+ ne.launching,org.python.pydev.customizations.app_engine.util,org.pyth
+ on.pydev.customizations.app_engine.wizards,org.python.pydev.customiza
+ tions.common
+Bundle-Name: Customizations Plug-in
+Bundle-Version: 3.0.0.1388187472
+Bundle-ClassPath: customizations.jar
+Bundle-Localization: plugin
+Bundle-Activator: org.python.pydev.customizations.CustomizationsPlugin
+Eclipse-BundleShape: dir
+
+

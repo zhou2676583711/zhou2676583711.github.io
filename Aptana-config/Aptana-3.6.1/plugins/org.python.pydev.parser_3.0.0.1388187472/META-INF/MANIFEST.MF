@@ -1,0 +1,26 @@
+Manifest-Version: 1.0
+Bundle-SymbolicName: org.python.pydev.parser; singleton:=true
+Require-Bundle: org.junit;bundle-version="4.0.0";resolution:=optional,
+ org.eclipse.ui,org.eclipse.ui.ide,org.eclipse.core.runtime,org.eclips
+ e.core.resources,org.eclipse.jface.text,org.python.pydev.core,org.ecl
+ ipse.ui.editors,org.eclipse.ui.workbench.texteditor
+Bundle-ManifestVersion: 2
+Bundle-ActivationPolicy: lazy
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Export-Package: org.python.pydev.parser,org.python.pydev.parser.fastpa
+ rser,org.python.pydev.parser.grammar24,org.python.pydev.parser.gramma
+ r25,org.python.pydev.parser.grammar26,org.python.pydev.parser.grammar
+ 27,org.python.pydev.parser.grammar30,org.python.pydev.parser.grammarc
+ ommon,org.python.pydev.parser.jython,org.python.pydev.parser.jython.a
+ st,org.python.pydev.parser.jython.ast.factory,org.python.pydev.parser
+ .prettyprinter,org.python.pydev.parser.prettyprinterv2,org.python.pyd
+ ev.parser.profile,org.python.pydev.parser.visitors,org.python.pydev.p
+ arser.visitors.comparator,org.python.pydev.parser.visitors.scope
+Bundle-Name: Parser Plug-in
+Bundle-Version: 3.0.0.1388187472
+Bundle-ClassPath: parser.jar
+Bundle-Localization: plugin
+Bundle-Activator: org.python.pydev.parser.ParserPlugin
+Eclipse-BundleShape: dir
+
+

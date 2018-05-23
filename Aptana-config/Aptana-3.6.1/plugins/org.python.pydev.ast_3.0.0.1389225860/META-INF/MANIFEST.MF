@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Bundle-SymbolicName: org.python.pydev.ast; singleton:=true
+Require-Bundle: org.eclipse.ui,org.eclipse.core.runtime
+Bundle-ManifestVersion: 2
+Bundle-ActivationPolicy: lazy
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Bundle-Vendor: Aptana
+Export-Package: org.python.pydev.ast,org.python.pydev.ast.management
+Bundle-Name: Ast Plug-in
+Bundle-Version: 3.0.0.1389225860
+Bundle-ClassPath: ast.jar
+Bundle-Localization: plugin
+Bundle-Activator: org.python.pydev.ast.AstPlugin
+Eclipse-BundleShape: dir
+
+
