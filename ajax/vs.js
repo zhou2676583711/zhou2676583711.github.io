@@ -1,10 +1,10 @@
 
 
-function verify(){
+function v(){
 
   $.ajax({
 
-		url : "http://119.97.235.162:8080/a/AServlet",
+		url : "http://192.168.1.105:8080/a/AServlet",
 		type :"get",
 		data : {
 			name : $("#username").val()
